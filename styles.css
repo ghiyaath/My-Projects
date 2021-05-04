@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body {
+  display: grid;
+  font-family:sans-serif;
+  color: blue; 
+  place-items: center;
+  min-height: 100vh;
+  /* padding: 1% 10%; */
+
+  background: url(https://images.unsplash.com/photo-1611312752514-9439fdba223d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  min-width: 80%;
+  padding: 5% 10%;
+  background: rgba(101, 109, 109, 0.582);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7.5px );
+  -webkit-backdrop-filter: blur( 7.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin-top: -10%;
+}
+
+.head{
+  width: 100%;
+  text-align: center;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+}
+  
+.card{
+  display: flex;
+  min-width: 20%;
+  flex-direction: column;
+  background: rgba(101, 109, 109, 0.582);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7.5px );
+  -webkit-backdrop-filter: blur( 7.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  overflow: hidden;
+  padding: 1%;
+}
+
+.card-img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 5px;
+ box-shadow: 0 8px 32px 0 rgba(38, 241, 116, 0.705);
+}
+
+.card-details {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button{
+  background: blue;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7.5px );
+  -webkit-backdrop-filter: blur( 7.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 40% 50%;
+  transition: all 0.5s ease;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5%;
+}
+
+button:hover {
+background-color: deeppink;
+}
+
+h1{
+  color: white;
+}
